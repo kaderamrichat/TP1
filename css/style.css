@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.title{
+  /*color:#10ADED;*/
+  color:#663399;
+  margin-bottom: 15px;
+}
+
+a,a:hover,a:active{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a{
+  color:#153e4f;
+}
+
+a:hover{
+  color:#D11D05;
+  transition:0.6s;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0px auto;
+  /*padding-top: 15px;*/
+  background: rgb(252, 252, 252);
+}
+
+/* ++++++++++++++++++++++++   HEADER   +++++++++++++++++++++++++++++++++++*/
+
+#main_header{
+  position: relative;
+  margin-bottom: 30px;
+  height: 160px;
+  /*background-image: url('../img/header-bg.jpg');
+  background-size: cover;*/
+  background: white;
+  box-shadow: 0px 2px 5px rgba(230, 230, 230, 0.2);
+}
+
+.logo img{
+  width: 100px;
+  margin: 22px 5px 0 10px;
+}
+
+.welcome {
+  position: absolute;
+  top: 5px;
+  left: 130px;
+}
+
+.welcome .title{
+  border-bottom: 3px solid;
+  margin-bottom: 6px;
+  color:black;
+}
+
+.nav{
+  position: absolute;
+  right: 35px;
+  top: 15px;
+}
+
+.menu {
+  margin-bottom: 15px;
+}
+
+.menu li{
+  display: inline;
+  margin-left: 15px;
+}
+
+.search_bar{
+  width: 245px;
+  height: 28px;
+  border:1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+}
+
+.fa-search{
+  color:#153e4f;
+  margin-right: 10px;
+}
+
+
+.wrapper_main{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+/* ++++++++++++++++++++++++   SIDEBAR   +++++++++++++++++++++++++++++++++++*/
+
+#main_sidebar{
+   width: 25%;
+   padding: 20px;
+   border-right: 1px solid rgb(204, 217, 226);
+}
+
+.services{
+  margin-bottom: 40px;
+}
+
+.services li{
+  list-style: square;
+  margin: 5px 0 5px 30px;
+}
+
+/* ++++++++++++++++++++++++   CONTENT   +++++++++++++++++++++++++++++++++++*/
+
+#main_content{
+  width: 85%;
+  padding: 0 20px;
+
+}
+
+.fil_ariane{
+  border-top: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 10px 0;
+  color:rgb(177, 177, 177);
+}
+
+
+.title span {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.content_cat{
+  display: flex;
+}
+
+.content_cat p {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* ++++++++++++++++++++++++   FOOTER   +++++++++++++++++++++++++++++++++++*/
+
+#main_footer{
+  height: 90px;
+  background: rgb(65, 65, 65);
+  color: white;
+}
+
+#main_footer p {
+  line-height: 90px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+
+/* ++++++++++++++++++++++++   MISC.   +++++++++++++++++++++++++++++++++++*/
+
+.debug1{
+  border: 2px solid purple;
+}
+
+.debug2{
+  border: 2px solid rgb(55, 43, 55);
+}
