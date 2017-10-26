@@ -47,7 +47,7 @@
     window.onload = function init() {
       pageModules = getPageModules(); //On affecte la fonction à une variable
       console.log("Retour de la fonction styliser ===========");
-      styliserModule(0, "white", "#BADA55");
+      styliserModule(5, "white", "#BADA55");
       console.log("Retour d'un objet avec des infos ===========");
       getModulesInfos(1)
       console.log(obj);
